@@ -1,8 +1,28 @@
-# React + Vite
+#UC Davis GDSC Product Cohort Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is the unofficial website for the UC Davis Google Developer Student Club's Product Cohort. The site showcases the benefits, opportunities, and hands-on experiences available to students who participate in the program.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- *Responsive Layout*: A clean, responsive design that adjusts for mobile, tablet, and desktop views.
+- *Image Grid*: A dynamic 2x2 image grid displaying cohort-related images beside the text for a visually appealing presentation.
+- *Carousel*: A carousel feature that showcases design and css talents
+
+## Technologies Used
+
+- *React*: React for front-end
+- *CSS*: For styling the layout, images, buttons, and text. _no component library used_
+- *JavaScript*: Modern JavaScript features to manage interactivity and dynamic content.
+
+## Installation
+
+To get started with the project, clone the repository and install the necessary dependencies:
+
+```bash
+git clone https://github.com/ivan-yung/GDSCWeb.git
+cd GDSC
+npm install
+npm run dev
+```
