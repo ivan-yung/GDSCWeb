@@ -1,4 +1,4 @@
-#UC Davis GDSC Product Cohort Website
+# UC Davis GDSC Product Cohort Website
 
 ## Overview
 
