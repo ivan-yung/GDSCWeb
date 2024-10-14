@@ -1,0 +1,112 @@
+/* 
+.whysection{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.heading2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sub-heading2{
+    color: #184065;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sub-text2{
+    color: #555555;
+    font-size: 20px;
+    width: 40vw;
+    line-height: 2.0;
+  }
+
+  .horizontalcontain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+  }
+
+  .fillphoto{
+    height: 60vh;
+    width: 40vw;
+  }
+ */
+
+
+ /* Default Desktop/Large Screen View */
+.whysection {
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+.heading2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sub-heading2 {
+  color: #184065;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sub-text2 {
+  color: #555555;
+  font-size: 20px;
+  width: 40vw;
+  line-height: 2.0;
+}
+
+.horizontalcontain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.fillphoto {
+  height: 60vh;
+  width: 40vw;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .horizontalcontain {
+    display: block; /* Stack elements vertically */
+    text-align: center; /* Center-align text on mobile */
+    padding: 20px;
+  }
+
+  .whysection,
+  .about {
+    width: 100%; /* Full width for text section */
+  }
+
+  .sub-text2 {
+    width: 100%; /* Full width for text */
+    line-height: 1.8;
+  }
+
+  .fillphoto {
+    width: 100%; /* Full width for the image */
+    height: auto;
+    margin-top: 20px; /* Add some spacing between text and image */
+  }
+
+  .buttons {
+    margin-top: 20px; /* Ensure buttons are spaced nicely */
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .imagecar {
+    display: block; /* Stack carousel vertically */
+    margin-top: 20px;
+  }
+}

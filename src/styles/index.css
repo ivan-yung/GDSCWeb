@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+button{
+  height: 30px;
+  width: 40px;
+}
+  
+.global{
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+.buttons{
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.joinb{
+  width: 10vw;
+  height: 6vh;
+  background-color: #3182CE;
+  border: none;
+  cursor: pointer;
+  box-shadow: none;
+  color: #ffff;
+  border-radius: 5px;
+}
+
+.contactb{
+  width: 10vw;
+  height: 6vh;
+  background-color: #ffff;
+  border-color: #3182CE;
+  cursor: pointer;
+  box-shadow: none;
+  color: #3182CE;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+  /*for mobile view*/
+  @media (max-width: 768px) {
+    .global{
+      margin-left: 0vw;
+      margin-right: 0vw;
+    }
+    button{
+      height: 30px;
+      width: 40px;
+    }
+  }

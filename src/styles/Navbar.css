@@ -1,0 +1,71 @@
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+  
+  .gdsclogo{
+    height: 40px;
+    width: 80px;
+  }
+  .nav-items {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-items a {
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: 0.3s ease;
+  }
+
+  .joinbutton{
+    color: white !important;
+    background-color: #3182CE;
+    border-color: #3182CE;
+    border-radius: 5px;
+  }
+  .nav-items a:hover {
+    background-color: #f1f1f1;
+    color: rgb(59, 59, 59) !important;
+    border-radius: 5px;
+  }
+  
+  .hamburger {
+    display: none;
+    font-size: 30px;
+    color: #383737;
+    cursor: pointer;
+  }
+  
+  /*for mobile view*/
+  @media (max-width: 768px) {
+    .nav-items {
+      display: none;
+      flex-direction: column;
+      background-color: #ffffff;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 200px;
+      padding: 10px;
+    }
+  
+    .nav-items.open {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }

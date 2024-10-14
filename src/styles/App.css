@@ -1,0 +1,26 @@
+.footer{
+    margin-top: 100px;
+    height: 20vh;
+    width: 100vw;
+    background-color: #f9f9f9;
+    display: grid;
+    place-items: center;
+  }
+
+.logoFooter{
+  height: 30px;
+  width: 50px;
+  margin-bottom: -40px;
+}
+
+/*for mobile view*/
+@media (max-width: 768px) {
+    .footer{
+      margin-top: 100px;
+      height: 20vh;
+      width: 100vw;
+      background-color: #f9f9f9;
+      display: grid;
+      place-items: center;
+    }
+  }
